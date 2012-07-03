@@ -77,5 +77,6 @@ void imprimirLista(nodo *lista) {
 		nodoAux = nodoAux->siguiente;
 	}
 	printf("NULL\n");
+	free(nodoAux);
 	return;
 }
